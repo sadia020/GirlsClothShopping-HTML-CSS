@@ -1,0 +1,483 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.menubar{
+    display: flex;
+}
+
+.img1{
+    padding: 100px;
+    margin-top: 50px;
+    margin-left: 350px;
+    
+}
+.img2{
+    padding: 0px;
+    margin-left: 200px;
+    
+}
+#p{
+    font-size: larger;
+}
+ */
+
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+ }
+
+ .container{
+    width: 1200px;
+    margin: 0 auto;
+ }
+
+ .nav-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+
+ }
+
+ .menu-bar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+ }
+
+ .menu-bar ul li a{
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1%;
+    color: #242323;
+ }
+/* .btn{
+    color: blue;
+
+} */
+
+/* Banner Part Start  */
+
+#banner{
+    padding: 30px 0px;
+}
+
+.ban-bg{
+    background-color: #F4F6F5;
+    border-radius: 25px;
+}
+
+ .ban-wrapper{
+    display: flex;
+    justify-content: space-around;
+ }
+ .btn{
+    padding: 15px 40px;
+    background-color: #000000;
+    color: #FEFEFE;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -3%;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.ban-text h1{
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 60px;
+    width: 250px;
+    padding-top: 40px;
+    color: #000000;
+}
+
+.ban-text h1 .let{
+    background-color: #fff;
+}
+
+.ban-text h1 span{
+    background-color: #EBD96B;
+    width: 230px;
+}
+
+.ban-text p{
+    font-size: 16px;
+    letter-spacing: -5%;
+    padding-top: 20px;
+}
+
+.ban-btn{
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+.ban-img img{
+    width: 420px;
+    height: 100%;
+}
+
+/* Shop section start  */
+
+.shop-bg{
+    background-color: #EBD96B;
+    padding: 40px 0px;
+    
+}
+
+.shop-wrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Shop section end */
+
+/* Arrival section start  */
+
+
+.arrive h2{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.arrive{
+    position: relative;
+}
+
+.arrive img{
+    position: absolute;
+    top:10px;
+    left: 80px;
+    z-index: -1;
+}
+
+/* Arrival section start  */
+
+.cart-text{
+    padding-top: 15px;
+}
+
+.card-1{
+    width: 230px;
+}
+
+.card-last{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arr-card-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+/* payday section start */
+
+#payday{
+    background-color: #e6d045;
+}
+
+.pay-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay-img img{
+    width: 580px;
+    height: 100%;
+}
+
+.paydaytext{
+    padding-top: 120px;
+    padding-left: 60px;
+    padding-bottom: 150px;
+}
+
+.paydaytext h2{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 90px;
+    width: 450px;
+}
+
+.paydaytext h2 span{
+    background-color: #fff;
+}
+
+.pay-img{
+    position: relative;
+}
+
+.star img{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    height: 50px;
+    width: 50px;
+}
+.paydaytext p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #231300;
+    width: 425px;
+    padding-top: 10px;
+}
+
+.paydaytext h4{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2%;
+    color: #000000;
+    padding-top: 15px;
+}
+
+.paydaytext h5{
+    font-size: 18px;
+    letter-spacing: -2%;
+    color: #000000;
+}
+
+.paydaybtn{
+    padding-top: 50px;
+}
+
+.pay-btn{
+    padding: 15px 50px;
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+ /* fevorite part start here */
+ #fevourite{
+    padding: 150px 0px;
+ }
+ .tranding{
+    padding: 20px 10px;
+    position: relative;
+    margin-left: 60px;
+ }
+ .tranding h4{
+    font-size: 30px;
+ }
+.tranding img{
+   position: absolute;
+   top: 40px;
+   left: 200px;
+   z-index: -1;   
+}
+.Twopic{
+    display: flex;
+    justify-content:space-evenly;
+}
+.young-card {
+    width: 500px;
+    
+}
+.r50 img{
+    width: 500px;
+    height: 100%;
+}
+.on h4{
+    font-size: 20px;
+}
+.now{
+    display: flex;
+    justify-content: space-between;  
+}
+.now h5{
+    font-size: 18px;
+    color: #7F7F7F;
+}
+.now i{
+    font-size: 18px;
+    color: #7F7F7F;
+}
+.young-card1{
+    width: 500px;
+}
+.r49 img{
+    width: 500px;
+    height: 100%;
+}
+.all h4{
+    font-size: 18px;
+    color: black;
+}
+.Explore{
+    display: flex;
+    justify-content: space-between;
+}
+.Explore h4{
+    font-size: 18px;
+    color: #7F7F7F;
+}
+.Explore i{
+    font-size: 18px;
+    color: #7F7F7F;
+}
+
+/* fevorite part End here */
+/* Downlode part start here */
+#Downlode{
+    padding: 50px 0px;
+}
+.appMobile {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.apple-google{
+    flex: flex;
+    gap: 40px;
+    padding-top: 50px;
+}
+
+.app h4{
+    font-size: 50px;
+    width: 600px;
+    height: 150px;
+    letter-spacing: 6%;
+}
+.app p{
+    font-size: 24px;
+    /* font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -4%; */
+    color: #7C7C7C;
+}
+.apple-google{
+    display: flex;
+    
+}
+/* Downlode part END here */
+
+/* Community Part start here  */
+
+#community{
+    background-color: #E5C643;
+    padding: 150px 0px;
+}
+
+.community-text{
+    text-align: center;
+}
+
+.community-text h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 3%;
+    line-height: 70px;
+}
+
+.community-text p{
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 3%;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.community-mail{
+    padding-top: 40px;
+    position: relative;
+}
+
+.community-mail input[type=email]{
+    padding: 15px 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.send{
+    position: absolute;
+    top: 43px;
+    left: 660px;
+    padding: 5px 20px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Community Part end here  */
+/* ***************************************** */
+/* footer part Start here */
+
+#footerPart{
+    padding: 120px 0px;
+    background-color: #000000;
+}
+
+.footWrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainFoot h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 3%;
+}
+.mainFoot p{
+    font-size: 24px;
+    color: #8E8E8E;
+    letter-spacing: 2%;
+}
+
+.mainFoot p span{
+    display: block;
+}
+
+.socialIcon{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.socialIcon i{
+    font-size: 26px;
+}
+
+/* Animation here  */
+
+.fa-square-facebook:hover{
+    transform: scale(1.2);
+    color: #E5C643;
+}
+
+/* Animation here  */
+
+.mainFoot{
+    color: #fff;
+}
+.midFoot a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.midFoot ul li a{
+    font-size: 18px;
+    color: #7C7C7C;
+    font-weight: 400;
+}
+/* footer part End here */
